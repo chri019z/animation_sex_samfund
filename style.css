@@ -11,6 +11,7 @@
     position: absolute;
 }
 
+
 #morten_sprite {
     background-image: url(grafik/morten_grin_cycle.svg);
     background-size: 300% 100%;
@@ -87,7 +88,7 @@
 
 
 #rum_sprite {
-     background-image: url(grafik/rum_sprite.svg);
+    background-image: url(grafik/rum_sprite.svg);
     background-size: 400% 100%;
     width: 15vw;
     height: 50vw;
@@ -123,7 +124,7 @@
 .morten_float {
     animation-name: morten_float;
     animation-duration: 5s;
-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 }
 
 @keyframes morten_float {

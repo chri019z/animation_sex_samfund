@@ -1,6 +1,7 @@
 $(document).ready(function)() {
 
 
+
     $(".rum_container").on("click", move);
 
     function move() {
