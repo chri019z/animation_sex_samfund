@@ -1,0 +1,141 @@
+.scene {
+    position: relative;
+    width: 80vw;
+    height: 35vw;
+    margin: auto;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#morten_container {
+    position: absolute;
+}
+
+#morten_sprite {
+    background-image: url(grafik/morten_grin_cycle.svg);
+    background-size: 300% 100%;
+    width: 40vw;
+    height: 50vw;
+    position: absolute;
+    top: ;
+
+}
+
+.morten_grin {
+    animation-name: morten_grin;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(3);
+    animation-iteration-count: infinite;
+}
+
+@keyframes morten_grin {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -300% 0;
+    }
+}
+
+
+#morten_blink_container {
+    position: absolute;
+}
+
+
+#morten_blink_sprite {
+    background-image: url(grafik/morten_blink_sad_cycle.svg);
+    background-size: 400% 100%;
+    width: 40vw;
+    height: 50vw;
+    position: absolute;
+    left: 30vw;
+
+}
+
+.morten_blink {
+    animation-name: morten_blink;
+    animation-duration: 4s;
+    animation-timing-function: steps(4);
+    animation-iteration-count: infinite;
+}
+
+@keyframes morten_blink {
+    0% {
+        background-position: 0 0;
+    }
+
+    25% {
+        background-position: -400% 0;
+    }
+
+    50% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+
+#rum_container {
+    position: absolute;
+}
+
+
+#rum_sprite {
+     background-image: url(grafik/rum_sprite.svg);
+    background-size: 400% 100%;
+    width: 15vw;
+    height: 50vw;
+    position: absolute;
+    left: 65vw;
+}
+
+.morten_rum {
+    animation-name: morten_rum;
+    animation-duration: 4s;
+    animation-timing-function: steps(4);
+    animation-iteration-count: infinite;
+}
+
+@keyframes morten_rum {
+    0% {
+        background-position: 0 0;
+    }
+
+    25% {
+        background-position: -400% 0;
+    }
+
+    50% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.morten_float {
+    animation-name: morten_float;
+    animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+@keyframes morten_float {
+    0% {
+        top: 50vw;
+    }
+
+    100% {
+        top: 0vw;
+    }
+}
+
+.morten_float_still {
+    top: 0vw;
+}
